@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h3>User Registration</h3></div>
+        <form name="register" action="register">
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>User Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name </td>
+                    <td><input type="text" name="fullname" value="" size="30" /></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address" rows="3" cols="20">
+                        Write your address here
+                        </textarea></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><select name="city">
+                            <option>Abc</option>
+                            <option>xyz</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username" value="" size="20" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" value="" size="20" /></td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td><input type="checkbox" name="hobby" value="cricket" />Cricket
+                        <input type="checkbox" name="hobby" value="reading" />Reading
+                        <input type="checkbox" name="hobby" value="pubg" />PUBG
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit" name="submit" /></td>
+                    <td><input type="reset" value="Clear" name="reset" /></td>
+                </tr>
+            </tbody>
+        </table>
+            
+        </form>
+
+    </body>
+</html>
